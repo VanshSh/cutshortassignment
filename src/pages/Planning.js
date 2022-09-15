@@ -5,13 +5,13 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { GrGroup } from 'react-icons/gr'
 const Planning = () => {
     return (
-        <div className='px-10 w-[80vh]'>
+        <div className='px-10 '>
             <Headline
                 mainHeading='How are you planning to use Eden? '
                 subHeading={`We'll streamline your setup experience accordingly.`}
             />
 
-            <div className='flex flex-col '>
+            <div className='flex flex-col lg:w-[70vh] '>
                 <div className='flex'>
                     <div className='border border-[#664de5] cursor-pointer rounded p-10 mr-10'>
                         <BsFillPersonFill className='text-2xl text-[#664de5]' />
