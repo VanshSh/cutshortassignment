@@ -6,7 +6,7 @@ const Button = ({ title, path }) => {
     return (
         <button
             onClick={() => navigate(path)}
-            className='bg-[#664de5] text-white text-xl
+            className='bg-[#664de5] text-white lg:text-xl
          px-24 rounded cursor-pointer my-8 py-3 items-center justify-center flex'
         >
             {title}
