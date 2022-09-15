@@ -4,7 +4,7 @@ import Headline from '../components/Headline'
 
 const Setup = () => {
     return (
-        <div>
+        <div className='px-10'>
             <Headline
                 mainHeading={`Let's set up a home for all your work`}
                 subHeading='You can always create another workspace later.'
