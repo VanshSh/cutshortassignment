@@ -7,7 +7,7 @@ import Congratulation from './pages/Congratulation'
 
 function App() {
     return (
-        <div className='flex flex-col h-[80vh]   justify-center items-center  '>
+        <div className='flex flex-col    justify-center items-center mt-20  '>
             <Header />
             <BrowserRouter>
                 <Routes>

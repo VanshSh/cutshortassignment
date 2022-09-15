@@ -30,7 +30,7 @@ const Setup = () => {
                     <span className='text-gray-500'>(optional)</span>
                 </label>
 
-                <div className='flex items-center justify-center border-2 rounded border-gray-300'>
+                <div className='flex items-center justify-center border rounded border-gray-300'>
                     <span className='bg-gray-200 text-gray-600 p-2'>
                         www.eden.com/
                     </span>
