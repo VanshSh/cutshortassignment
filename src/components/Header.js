@@ -13,5 +13,3 @@ const Header = () => {
 }
 
 export default Header
-
-//   <header className='mb-10 mr-16 bg-green-600 lg:bg-red-500 md:bg-fuchsia-500 sm:bg-blue-500  '>

@@ -7,7 +7,7 @@ const Button = ({ title, path }) => {
         <button
             onClick={() => navigate(path)}
             className='bg-[#664de5] text-white lg:text-xl
-         px-24 rounded cursor-pointer my-8 py-3 items-center justify-center flex'
+         px-20 rounded cursor-pointer my-8 py-3 text-md items-center justify-center flex'
         >
             {title}
         </button>
