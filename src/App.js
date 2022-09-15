@@ -1,16 +1,24 @@
 import Button from './components/Button'
 import Header from './components/Header'
 import Headline from './components/Headline'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Setup from './pages/Setup'
+import Planning from './pages/Planning'
+import Congratulation from './pages/Congratulation'
 
 function App() {
     return (
-        <div className='flex flex-col h-[40vh] justify-center items-center  '>
+        <div className='flex flex-col h-[100vh] justify-center items-center  '>
             <Header />
-            <Headline
-                mainHeading='Welcome! First thing first'
-                subHeading='You can always change them later.'
-            />
-            <Button title='Create Workspace' />
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    <Route path='setup' element={<Setup />} />
+                    <Route path='planning' element={<Planning />} />
+                    <Route path='congratulation' element={<Congratulation />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }
