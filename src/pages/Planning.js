@@ -39,13 +39,3 @@ const Planning = () => {
 }
 
 export default Planning
-
-//   <div className='border  cursor-pointer rounded lg:p-10 p-4 '>
-//                     <GrGroup className='text-2xl text-[#664de5]' />
-//                     <h3 className='text-lg text-black font-bold mt-5'>
-//                         With my team
-//                     </h3>
-//                     <p className='text-gray-700 lg:text-lg text-sm mt-4 font-semibold'>
-//                         Wikis, docs, tasks & projects, all in one place.
-//                     </p>
-//                 </div>
