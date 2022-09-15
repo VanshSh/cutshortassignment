@@ -13,7 +13,7 @@ const Planning = () => {
 
             <div className='flex flex-col lg:w-[70vh] '>
                 <div className='flex'>
-                    <div className='border border-[#664de5] cursor-pointer rounded p-10 mr-10'>
+                    <div className='border border-[#664de5] cursor-pointer rounded lg:p-10 p-4 mr-10'>
                         <BsFillPersonFill className='text-2xl text-[#664de5]' />
                         <h3 className='text-lg text-black font-bold mt-5'>
                             For myself
