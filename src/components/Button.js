@@ -4,7 +4,7 @@ import { useStepCounter } from '../context/context'
 
 const Button = ({ title, path }) => {
     const navigate = useNavigate()
-    const { page, pageHandler } = useStepCounter()
+    const { pageHandler } = useStepCounter()
     return (
         <button
             onClick={() => {

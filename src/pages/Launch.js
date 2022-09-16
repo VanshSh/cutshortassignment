@@ -5,7 +5,7 @@ import { AiFillCheckCircle } from 'react-icons/ai'
 
 const Congratulation = () => {
     return (
-        <div className=' flex flex-col px-10 '>
+        <div className=' flex flex-col '>
             <Headline
                 mainHeading='Congratulations, Eren!'
                 subHeading={`You have completed onboarding, you can start using Eden!`}

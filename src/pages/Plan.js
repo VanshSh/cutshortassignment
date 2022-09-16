@@ -5,7 +5,7 @@ import { BsFillPersonFill } from 'react-icons/bs'
 import { GrGroup } from 'react-icons/gr'
 const Planning = () => {
     return (
-        <div className='px-10 '>
+        <div>
             <Headline
                 mainHeading='How are you planning to use Eden? '
                 subHeading={`We'll streamline your setup experience accordingly.`}
@@ -32,7 +32,7 @@ const Planning = () => {
                         </p>
                     </div>
                 </div>
-                <Button title='Create workspace' path='/congratulation' />
+                <Button title='Create workspace' path='/launch' />
             </div>
         </div>
     )

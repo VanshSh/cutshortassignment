@@ -4,7 +4,7 @@ import Headline from '../components/Headline'
 
 const Setup = () => {
     return (
-        <div className='px-10'>
+        <div>
             <Headline
                 mainHeading={`Let's set up a home for all your work`}
                 subHeading='You can always create another workspace later.'
@@ -42,7 +42,7 @@ const Setup = () => {
                     />
                 </div>
 
-                <Button title='Create workspace' path='/planning' />
+                <Button title='Create workspace' path='/plan' />
             </form>
         </div>
     )

@@ -7,18 +7,20 @@ const Pagination = () => {
 
     return (
         <div className='mb-14'>
-            <ul className='flex mx-5 flex-1 w-[50vh] items-center justify-evenly'>
+            <ul className='flex mx-5 flex-1 w-[40vw] items-center justify-evenly'>
                 {steps.map((step) => {
                     return (
-                        <li
-                            className={`flex justify-center border rounded-full h-12 w-12 text-xl  items-center ${
-                                step === page || step < page
-                                    ? 'bg-[#664de5] text-white'
-                                    : ''
-                            } `}
-                        >
-                            {step}
-                        </li>
+                        <React.Fragment>
+                            <li
+                                className={`flex justify-center border rounded-full h-12 w-12 text-xl  items-center ${
+                                    step === page || step < page
+                                        ? 'bg-[#664de5] text-white'
+                                        : ''
+                                } `}
+                            >
+                                {step}
+                            </li>
+                        </React.Fragment>
                     )
                 })}
             </ul>
