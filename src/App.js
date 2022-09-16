@@ -13,14 +13,19 @@ function App() {
         <div className='flex flex-col justify-center items-center mt-20  '>
             <Header />
             <Pagination />
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<Home />} />
-                    <Route path='setup' element={<Setup />} />
-                    <Route path='planning' element={<Planning />} />
-                    <Route path='congratulation' element={<Congratulation />} />
-                </Routes>
-            </BrowserRouter>
+            <div className=' lg:w-[35vw] px-10'>
+                <BrowserRouter>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='setup' element={<Setup />} />
+                        <Route path='planning' element={<Planning />} />
+                        <Route
+                            path='congratulation'
+                            element={<Congratulation />}
+                        />
+                    </Routes>
+                </BrowserRouter>
+            </div>
         </div>
     )
 }

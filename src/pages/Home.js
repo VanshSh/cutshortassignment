@@ -13,7 +13,7 @@ const Home = () => {
             <form action='' className='flex flex-col '>
                 <label
                     htmlFor='fullName'
-                    className='text-md my-2 font-semibold text-gray-700'
+                    className='text-lg my-2 font-semibold text-gray-700'
                 >
                     Full Name
                 </label>
@@ -24,7 +24,7 @@ const Home = () => {
                 />
                 <label
                     htmlFor='displayName'
-                    className='text-md mb-2 mt-6 font-semibold text-gray-700'
+                    className='text-lg mb-2 mt-6 font-semibold text-gray-700'
                 >
                     Display Name
                 </label>

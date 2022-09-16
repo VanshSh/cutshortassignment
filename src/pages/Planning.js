@@ -11,7 +11,7 @@ const Planning = () => {
                 subHeading={`We'll streamline your setup experience accordingly.`}
             />
 
-            <div className='flex flex-col lg:w-[70vh] '>
+            <div className='flex flex-col  '>
                 <div className='flex lg:flex-row flex-col  '>
                     <div className='border hover:border-[#664de5] cursor-pointer rounded lg:p-6 p-4  lg:mr-10 mb-2'>
                         <BsFillPersonFill className='text-2xl text-[#664de5]' />

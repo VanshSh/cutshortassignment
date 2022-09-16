@@ -13,7 +13,7 @@ const Setup = () => {
             <form action='' className='flex flex-col '>
                 <label
                     htmlFor='workspaceName'
-                    className='text-md my-2 font-semibold text-gray-700'
+                    className='text-lg my-2 font-semibold text-gray-700'
                 >
                     Workspace Name
                 </label>
@@ -24,7 +24,7 @@ const Setup = () => {
                 />
                 <label
                     htmlFor='workspaceUrl'
-                    className='text-md mb-2 mt-6 font-semibold text-gray-700'
+                    className='text-lg mb-2 mt-6 font-semibold text-gray-700'
                 >
                     Workspace URL{' '}
                     <span className='text-gray-500'>(optional)</span>

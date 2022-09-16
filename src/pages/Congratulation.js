@@ -5,15 +5,16 @@ import { AiFillCheckCircle } from 'react-icons/ai'
 
 const Congratulation = () => {
     return (
-        <div className='items-center px-10 flex  flex-col justify-center'>
+        <div className=' flex flex-col px-10 '>
             <Headline
                 mainHeading='Congratulations, Eren!'
                 subHeading={`You have completed onboarding, you can start using Eden!`}
             />
-            <AiFillCheckCircle className='text-8xl my-10 text-[#664de5]' />
-            <div className='flex flex-col '>
-                <Button title='Launch Eden' path='/' />
+            <div className='flex items-center justify-center'>
+                <AiFillCheckCircle className='text-8xl my-10  text-[#664de5]' />
             </div>
+
+            <Button title='Launch Eden' path='/' />
         </div>
     )
 }
