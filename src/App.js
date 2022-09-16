@@ -10,7 +10,7 @@ import { useStepCounter } from './context/context'
 function App() {
     const { page } = useStepCounter()
     return (
-        <div className='flex flex-col justify-center mx-10 items-center mt-20  '>
+        <div className='flex flex-col justify-center mx-10 items-center mt-20 '>
             <Header />
             <Pagination />
             <div className=' lg:w-[35vw]'>
