@@ -35,23 +35,3 @@ const Pagination = () => {
 }
 
 export default Pagination
-//  <div className='mb-14'>
-//             <ul className='flex mx-5 flex-1 w-[40vw] items-center justify-evenly'>
-//                 {steps.map((step) => {
-//                     return (
-//                         <React.Fragment>
-//                             <li
-//                                 className={`flex justify-center border rounded-full w-10 h-1/2 text-xl  items-center ${
-//                                     step === page || step < page
-//                                         ? 'bg-[#664de5] text-white'
-//                                         : ''
-//                                 } `}
-//                             >
-//                                 {step}
-//                             </li>
-//                             <div className='w-12 bg-red-400 h-[0.5px]'></div>
-//                         </React.Fragment>
-//                     )
-//                 })}
-//             </ul>
-//         </div>
