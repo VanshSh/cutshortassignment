@@ -10,7 +10,7 @@ const Congratulation = () => {
                 mainHeading='Congratulations, Eren!'
                 subHeading={`You have completed onboarding, you can start using Eden!`}
             />
-            <AiFillCheckCircle className='text-8xl text-[#664de5]' />
+            <AiFillCheckCircle className='text-8xl my-10 text-[#664de5]' />
             <div className='flex flex-col '>
                 <Button title='Launch Eden' path='/' />
             </div>

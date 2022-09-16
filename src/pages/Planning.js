@@ -13,7 +13,7 @@ const Planning = () => {
 
             <div className='flex flex-col lg:w-[70vh] '>
                 <div className='flex lg:flex-row flex-col  '>
-                    <div className='border border-[#664de5] cursor-pointer rounded lg:p-6 p-4  lg:mr-10 mb-2'>
+                    <div className='border hover:border-[#664de5] cursor-pointer rounded lg:p-6 p-4  lg:mr-10 mb-2'>
                         <BsFillPersonFill className='text-2xl text-[#664de5]' />
                         <h3 className='text-lg text-black font-bold mt-5'>
                             For myself
@@ -22,7 +22,7 @@ const Planning = () => {
                             Write better. Think more clearly. Stay organized.
                         </p>
                     </div>
-                    <div className='border cursor-pointer rounded lg:p-6 p-4 mb-2'>
+                    <div className='border hover:border-[#664de5] cursor-pointer rounded lg:p-6 p-4 mb-2'>
                         <GrGroup className='text-2xl text-[#664de5]' />
                         <h3 className='text-lg text-black font-bold mt-5'>
                             With my team
