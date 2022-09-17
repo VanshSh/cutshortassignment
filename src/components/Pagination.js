@@ -12,6 +12,7 @@ const Pagination = () => {
                     return (
                         <React.Fragment>
                             <li
+                                key={step}
                                 className={`flex justify-center border rounded-full w-12 h-12 text-xl  items-center ${
                                     step === page || step < page
                                         ? 'bg-[#664de5] text-white'
